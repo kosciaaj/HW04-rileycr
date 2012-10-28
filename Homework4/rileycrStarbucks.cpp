@@ -17,7 +17,7 @@ Entry* rileycrStarbucks::getNearest(double x, double y){
 	for(int i=0; i < size; i++){
 		if(sqrt((unsortedArrayData_[i].x-x)*(unsortedArrayData_[i].x-x)+
 			(unsortedArrayData_[i].y-y)*(unsortedArrayData_[i].y-y))
-			< sqrt((temp.x-x)*(temp.x-x)+(temp.y-y)*(temp.y-y))){
+			< 	sqrt((temp.x-x)*(temp.x-x)+(temp.y-y)*(temp.y-y))){
 				temp = unsortedArrayData_[i];
 		}
 	}
